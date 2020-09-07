@@ -10,7 +10,7 @@ html, body{
 body{
     font-family: 'Russo One', sans-serif;
     font-size: 12px;
-    background: linear-gradient(to bottom, hsla(285, 86%, 5%, 0.747), black), url('./Images/background.jpg');
+    background: linear-gradient(to bottom, hsla(285, 86%, 5%, 0.747), black), url('./images/background.jpg');
     background-repeat:no-repeat;
     background-position: center;
     background-attachment: fixed;
