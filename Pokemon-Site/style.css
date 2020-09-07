@@ -1,0 +1,326 @@
+
+/* General */
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    font-family: 'Russo One', sans-serif;
+    font-size: 12px;
+    background: linear-gradient(to bottom, hsla(285, 86%, 5%, 0.747), black), url('./Images/background.jpg');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+    width: 100%;
+    
+}
+
+h1, h2, h3, a.list-link{
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+
+}
+
+
+
+
+img{
+    display: block;
+}
+
+
+
+
+
+
+
+/* ----------------HEADER----------------- */
+
+
+
+/* Layout */
+
+
+.header-container{
+
+    background: #32353E;
+    
+    
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid green; */
+    overflow: auto;
+}
+
+
+
+.navbar-list li{
+    margin-right: 2em;
+
+}
+
+.navbar-list a.list-link{
+    text-decoration: none;
+    display: block;
+    /* border: 1px solid black; */
+    padding: 0.25rem;
+    transition: transform .3s cubic-bezier(.25,.1,.25,1), color .3s cubic-bezier(.25,.1,.25,1) ;
+}
+
+
+/* Typography */
+   
+ul.navbar-list{
+    font-family: 'Press Start 2P', cursive;
+    list-style: none;
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content:space-evenly;
+    
+    
+}
+
+
+a.list-link:hover{
+    color: #bbbbbb;
+    transform: scale(1.3);
+    background-image: url('./images/eyes.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+/* -------------------------------body---------------------------------- */
+
+
+
+.container{
+    width: 95%;
+    /* background: red; */
+    overflow: auto;
+    min-height: 50%;
+    margin: 0 auto;
+}
+
+
+
+
+.container h1.title{
+    margin-top: 4em;
+    text-align: center;
+}
+
+
+.title-image{
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    width: 30%;
+    min-width: 15rem;
+    margin-top: 4rem;
+}
+
+.tab-container{
+    
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    
+
+}
+
+.tab{
+    width: 50%;
+    /* border: 1px solid red; */
+    text-align: center;
+    background: none;
+    
+}
+
+
+.tab1{
+    background: rgb(44, 4, 109);
+    border-top-left-radius: 10px;
+}
+
+.tab2{
+    background: purple;
+    border-top-right-radius: 10px;
+}
+
+
+.content{
+    min-height: 50vh;
+    background: #420353ce;
+    overflow: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 4rem;
+}
+
+
+
+.col1{
+    width: 65%
+}
+
+.col2{
+    width: 30%;
+}
+
+
+
+.box{
+    margin-top: 2rem;
+    box-shadow: 10px 10px 30px -5px black;
+    margin-bottom: 2rem;
+    
+}
+
+.box-header{
+    background: #32353E;
+    margin-top: 0;
+    padding: 0.25rem;
+}
+.box-header h2{
+    margin-left: 0.5rem;
+}
+
+.box-content{
+    font-family: 'Russo One', sans-serif;
+    padding: 0.7rem;
+    background: white;
+    color: black;
+    padding-bottom: 2rem;
+    
+    
+}
+
+
+.flex-vertical{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+
+.flex-vertical .box-image{
+    /* border: 1px solid black; */
+    width: 20%;
+}
+
+.flex-vertical .box-image img{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1rem;
+    /* border: 1px solid black; */
+}
+
+
+
+.flex-horizontal{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+
+.flex-horizontal .box-image{
+    width: 30%;
+    /* border: 1px solid black; */
+}
+
+
+.box-image{
+    width: max-content;
+    
+    
+}
+
+.box-image img{
+    display: block;
+    width: 100%;
+}
+
+
+
+
+.box-text h3{
+    font-family: 'Russo One', sans-serif;
+    color: black;
+}
+
+.box-text a{
+    color: crimson;
+    text-decoration: none;
+}
+
+
+
+.link-deco{
+    color: crimson;
+    text-decoration: none;
+}
+
+.box-text a:hover{
+    color: darkslateblue;
+}
+
+.author{
+    background: white;
+    padding-top: 0em;
+    text-align: end;
+    padding-right: 1em;
+    padding-bottom: 0.2rem;
+    
+}
+
+
+.center{
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
