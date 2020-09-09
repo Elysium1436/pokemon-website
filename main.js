@@ -14,8 +14,8 @@ function tab2show() {
   tab1_content.style.display = "none";
 }
 
-let tab1 = document.getElementById("tab1");
-let tab2 = document.getElementById("tab2");
+var tab1 = document.getElementById("tab1");
+var tab2 = document.getElementById("tab2");
 
 tab1.addEventListener(onclick, tab1show);
 tab2.addEventListener(onclick, tab2show);
