@@ -2,6 +2,8 @@ window.onload = function () {
   let tab1 = document.getElementById("tab1");
   let tab2 = document.getElementById("tab2");
 
+  alert("hey I'm being clicked-general why am I being run on start");
+
   function tab1show() {
     console.log("hey I'm being clicked1 why am I being run on start");
     let tab1_content = document.getElementById("tab1-content");
