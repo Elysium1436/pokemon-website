@@ -11,6 +11,8 @@ window.onload = function () {
     tab2_content.style.display = "none";
   }
 
+  /* ---------------------------------- yeet ---------------------------------- */
+
   function tab2show() {
     console.log("hey I'm being clicked2");
     let tab2_content = document.getElementById("tab2-content");
